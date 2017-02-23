@@ -16,6 +16,12 @@ na pasta `public`. É necessário que você tenha o Ionic instalado globalmente 
 
 Simplesmente rode `npm run test` na pasta principal, você também terá um report da cobertura dos testes.
 
+### Eslint
+
+Utilizo o Eslint para previnir erros bobos no meu projeto e manter um padrão (de declaração de variáveis,
+espaçamento, etc) no projeto, para rodá-lo basta rodar o comando `npm run linter`
+e então terá o resultado do linter
+
 ## Como funciona o projeto
 
 Dentro da pasta `lib` existe um parser, que recebe os dados de `weather`

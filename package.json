@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "./node_modules/.bin/istanbul cover _mocha -- -R spec",
-    "start": "./node_modules/.bin/nodemon server.js"
+    "start": "./node_modules/.bin/nodemon server.js",
+    "linter": "./node_modules/.bin/gulp eslint"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.15.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0"
   },
